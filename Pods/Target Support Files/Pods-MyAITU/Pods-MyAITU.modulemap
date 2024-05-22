@@ -1,0 +1,6 @@
+framework module Pods_MyAITU {
+  umbrella header "Pods-MyAITU-umbrella.h"
+
+  export *
+  module * { export * }
+}

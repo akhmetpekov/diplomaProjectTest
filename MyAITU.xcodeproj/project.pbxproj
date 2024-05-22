@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0305E7CD2BEB62050089AD95 /* StudentInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0305E7CC2BEB62050089AD95 /* StudentInformationViewController.swift */; };
+		0305E7D02BF0B6C60089AD95 /* uni map 1 floor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0305E7CF2BF0B6C60089AD95 /* uni map 1 floor.pdf */; };
+		0305E7D32BF0BF340089AD95 /* uni map 3 floor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0305E7D12BF0BF340089AD95 /* uni map 3 floor.pdf */; };
+		0305E7D42BF0BF340089AD95 /* uni map 2 floor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0305E7D22BF0BF340089AD95 /* uni map 2 floor.pdf */; };
+		0305E7DE2BF3381E0089AD95 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0305E7DD2BF3381E0089AD95 /* Student.swift */; };
+		0305E8022BFA07A10089AD95 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0305E8012BFA07A00089AD95 /* GoogleService-Info.plist */; };
+		0305E8042BFA1DF70089AD95 /* GuideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0305E8032BFA1DF70089AD95 /* GuideCell.swift */; };
+		0305E8062BFA1FB20089AD95 /* GuideCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0305E8052BFA1FB20089AD95 /* GuideCategories.swift */; };
+		0305E8082BFA3B2F0089AD95 /* GuideDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0305E8072BFA3B2F0089AD95 /* GuideDetailViewController.swift */; };
+		0305E8162BFA3DD70089AD95 /* Rules of academic integrity.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0305E80C2BFA3DD60089AD95 /* Rules of academic integrity.pdf */; };
+		0305E8172BFA3DD70089AD95 /* Navigation of Microsoft Teams.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0305E80D2BFA3DD60089AD95 /* Navigation of Microsoft Teams.pdf */; };
+		0305E8182BFA3DD70089AD95 /* Instructions of the exam session.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0305E80E2BFA3DD60089AD95 /* Instructions of the exam session.pdf */; };
+		0305E8192BFA3DD70089AD95 /* Regulation on academic mobility.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0305E80F2BFA3DD60089AD95 /* Regulation on academic mobility.pdf */; };
+		0305E81A2BFA3DD70089AD95 /* Basic concepts.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0305E8102BFA3DD60089AD95 /* Basic concepts.pdf */; };
+		0305E81B2BFA3DD70089AD95 /* Rules of educational process.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0305E8112BFA3DD60089AD95 /* Rules of educational process.pdf */; };
+		0305E81C2BFA3DD70089AD95 /* Student support services.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0305E8122BFA3DD60089AD95 /* Student support services.pdf */; };
+		0305E81D2BFA3DD70089AD95 /* Internal and work regulations.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0305E8132BFA3DD60089AD95 /* Internal and work regulations.pdf */; };
+		0305E81E2BFA3DD70089AD95 /* Navigation of Moodle.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0305E8142BFA3DD60089AD95 /* Navigation of Moodle.pdf */; };
+		0305E81F2BFA3DD70089AD95 /* Rules of the system for evaluating.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0305E8152BFA3DD70089AD95 /* Rules of the system for evaluating.pdf */; };
+		0305E8212BFA4C700089AD95 /* EventsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0305E8202BFA4C700089AD95 /* EventsCell.swift */; };
+		0305E8232BFA56120089AD95 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0305E8222BFA56120089AD95 /* Events.swift */; };
+		0305E8252BFA7A600089AD95 /* EventsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0305E8242BFA7A600089AD95 /* EventsDetailViewController.swift */; };
+		0305E8282BFAEC920089AD95 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0305E8272BFAEC920089AD95 /* LoginViewController.swift */; };
+		0305E82A2BFAF6290089AD95 /* UITextField + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0305E8292BFAF6290089AD95 /* UITextField + ext.swift */; };
+		0305E82C2BFB36DE0089AD95 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0305E82B2BFB36DE0089AD95 /* SettingsViewController.swift */; };
+		0305E82E2BFB5E2C0089AD95 /* Alert + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0305E82D2BFB5E2C0089AD95 /* Alert + ext.swift */; };
+		0305E8302BFB5E4C0089AD95 /* Keyboard + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0305E82F2BFB5E4C0089AD95 /* Keyboard + ext.swift */; };
+		033C05CE2BEA233B00D626CE /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033C05CD2BEA233B00D626CE /* CarouselView.swift */; };
+		034DEEF12BE913EA00B29CB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034DEEF02BE913EA00B29CB9 /* AppDelegate.swift */; };
+		034DEEF32BE913EA00B29CB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034DEEF22BE913EA00B29CB9 /* SceneDelegate.swift */; };
+		034DEEF52BE913EA00B29CB9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034DEEF42BE913EA00B29CB9 /* MainViewController.swift */; };
+		034DEEFA2BE913EC00B29CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034DEEF92BE913EC00B29CB9 /* Assets.xcassets */; };
+		034DEEFD2BE913EC00B29CB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034DEEFB2BE913EC00B29CB9 /* LaunchScreen.storyboard */; };
+		034DEF082BE915A600B29CB9 /* UIColor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034DEF072BE915A600B29CB9 /* UIColor + ext.swift */; };
+		034DEF0A2BE915B500B29CB9 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034DEF092BE915B500B29CB9 /* Resources.swift */; };
+		034DEF0E2BE91C0900B29CB9 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034DEF0D2BE91C0900B29CB9 /* CustomButton.swift */; };
+		034DEF102BE9247100B29CB9 /* UIImage + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034DEF0F2BE9247100B29CB9 /* UIImage + ext.swift */; };
+		034DEF122BE95CA500B29CB9 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034DEF112BE95CA500B29CB9 /* EventsViewController.swift */; };
+		034DEF142BE95CB300B29CB9 /* AnnouncementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034DEF132BE95CB300B29CB9 /* AnnouncementsViewController.swift */; };
+		034DEF162BE95CC100B29CB9 /* MoodleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034DEF152BE95CC100B29CB9 /* MoodleViewController.swift */; };
+		034DEF182BE95CCD00B29CB9 /* UniversityMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034DEF172BE95CCD00B29CB9 /* UniversityMapViewController.swift */; };
+		034DEF1A2BE95CD700B29CB9 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034DEF192BE95CD700B29CB9 /* GuideViewController.swift */; };
+		03729B3C2BFBA73A0058A426 /* DUViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03729B3B2BFBA73A0058A426 /* DUViewController.swift */; };
+		03729B3E2BFBAEC20058A426 /* EventRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03729B3D2BFBAEC10058A426 /* EventRegistrationViewController.swift */; };
+		03729B402BFBB2870058A426 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03729B3F2BFBB2870058A426 /* CalculatorViewController.swift */; };
+		DD6033D736FF90FB5C221C3E /* Pods_MyAITU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE87C96EA5CDD87D85B76EE3 /* Pods_MyAITU.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0305E7CC2BEB62050089AD95 /* StudentInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentInformationViewController.swift; sourceTree = "<group>"; };
+		0305E7CF2BF0B6C60089AD95 /* uni map 1 floor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "uni map 1 floor.pdf"; sourceTree = "<group>"; };
+		0305E7D12BF0BF340089AD95 /* uni map 3 floor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "uni map 3 floor.pdf"; sourceTree = "<group>"; };
+		0305E7D22BF0BF340089AD95 /* uni map 2 floor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "uni map 2 floor.pdf"; sourceTree = "<group>"; };
+		0305E7DD2BF3381E0089AD95 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		0305E8012BFA07A00089AD95 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0305E8032BFA1DF70089AD95 /* GuideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCell.swift; sourceTree = "<group>"; };
+		0305E8052BFA1FB20089AD95 /* GuideCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCategories.swift; sourceTree = "<group>"; };
+		0305E8072BFA3B2F0089AD95 /* GuideDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideDetailViewController.swift; sourceTree = "<group>"; };
+		0305E80C2BFA3DD60089AD95 /* Rules of academic integrity.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Rules of academic integrity.pdf"; sourceTree = "<group>"; };
+		0305E80D2BFA3DD60089AD95 /* Navigation of Microsoft Teams.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Navigation of Microsoft Teams.pdf"; sourceTree = "<group>"; };
+		0305E80E2BFA3DD60089AD95 /* Instructions of the exam session.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Instructions of the exam session.pdf"; sourceTree = "<group>"; };
+		0305E80F2BFA3DD60089AD95 /* Regulation on academic mobility.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Regulation on academic mobility.pdf"; sourceTree = "<group>"; };
+		0305E8102BFA3DD60089AD95 /* Basic concepts.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Basic concepts.pdf"; sourceTree = "<group>"; };
+		0305E8112BFA3DD60089AD95 /* Rules of educational process.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Rules of educational process.pdf"; sourceTree = "<group>"; };
+		0305E8122BFA3DD60089AD95 /* Student support services.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Student support services.pdf"; sourceTree = "<group>"; };
+		0305E8132BFA3DD60089AD95 /* Internal and work regulations.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Internal and work regulations.pdf"; sourceTree = "<group>"; };
+		0305E8142BFA3DD60089AD95 /* Navigation of Moodle.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Navigation of Moodle.pdf"; sourceTree = "<group>"; };
+		0305E8152BFA3DD70089AD95 /* Rules of the system for evaluating.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Rules of the system for evaluating.pdf"; sourceTree = "<group>"; };
+		0305E8202BFA4C700089AD95 /* EventsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsCell.swift; sourceTree = "<group>"; };
+		0305E8222BFA56120089AD95 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		0305E8242BFA7A600089AD95 /* EventsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsDetailViewController.swift; sourceTree = "<group>"; };
+		0305E8272BFAEC920089AD95 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0305E8292BFAF6290089AD95 /* UITextField + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField + ext.swift"; sourceTree = "<group>"; };
+		0305E82B2BFB36DE0089AD95 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0305E82D2BFB5E2C0089AD95 /* Alert + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert + ext.swift"; sourceTree = "<group>"; };
+		0305E82F2BFB5E4C0089AD95 /* Keyboard + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Keyboard + ext.swift"; sourceTree = "<group>"; };
+		033C05CD2BEA233B00D626CE /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		034DEEED2BE913EA00B29CB9 /* MyAITU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAITU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		034DEEF02BE913EA00B29CB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		034DEEF22BE913EA00B29CB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		034DEEF42BE913EA00B29CB9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		034DEEF92BE913EC00B29CB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		034DEEFC2BE913EC00B29CB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		034DEEFE2BE913EC00B29CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		034DEF072BE915A600B29CB9 /* UIColor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ext.swift"; sourceTree = "<group>"; };
+		034DEF092BE915B500B29CB9 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		034DEF0D2BE91C0900B29CB9 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		034DEF0F2BE9247100B29CB9 /* UIImage + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage + ext.swift"; sourceTree = "<group>"; };
+		034DEF112BE95CA500B29CB9 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		034DEF132BE95CB300B29CB9 /* AnnouncementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementsViewController.swift; sourceTree = "<group>"; };
+		034DEF152BE95CC100B29CB9 /* MoodleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodleViewController.swift; sourceTree = "<group>"; };
+		034DEF172BE95CCD00B29CB9 /* UniversityMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityMapViewController.swift; sourceTree = "<group>"; };
+		034DEF192BE95CD700B29CB9 /* GuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
+		03729B3B2BFBA73A0058A426 /* DUViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DUViewController.swift; sourceTree = "<group>"; };
+		03729B3D2BFBAEC10058A426 /* EventRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRegistrationViewController.swift; sourceTree = "<group>"; };
+		03729B3F2BFBB2870058A426 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		61B2A8A5AE4BC338471725B4 /* Pods-MyAITU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAITU.debug.xcconfig"; path = "Target Support Files/Pods-MyAITU/Pods-MyAITU.debug.xcconfig"; sourceTree = "<group>"; };
+		CE87C96EA5CDD87D85B76EE3 /* Pods_MyAITU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyAITU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1506C9FE54BD8AEE4480D8B /* Pods-MyAITU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAITU.release.xcconfig"; path = "Target Support Files/Pods-MyAITU/Pods-MyAITU.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		034DEEEA2BE913EA00B29CB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6033D736FF90FB5C221C3E /* Pods_MyAITU.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0305E7CE2BF0B6AF0089AD95 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				0305E7D22BF0BF340089AD95 /* uni map 2 floor.pdf */,
+				0305E7D12BF0BF340089AD95 /* uni map 3 floor.pdf */,
+				0305E7CF2BF0B6C60089AD95 /* uni map 1 floor.pdf */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		0305E7DC2BF338050089AD95 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0305E7DD2BF3381E0089AD95 /* Student.swift */,
+				0305E8052BFA1FB20089AD95 /* GuideCategories.swift */,
+				0305E8222BFA56120089AD95 /* Events.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0305E80B2BFA3DC50089AD95 /* Guide Materials */ = {
+			isa = PBXGroup;
+			children = (
+				0305E8102BFA3DD60089AD95 /* Basic concepts.pdf */,
+				0305E80E2BFA3DD60089AD95 /* Instructions of the exam session.pdf */,
+				0305E8132BFA3DD60089AD95 /* Internal and work regulations.pdf */,
+				0305E80D2BFA3DD60089AD95 /* Navigation of Microsoft Teams.pdf */,
+				0305E8142BFA3DD60089AD95 /* Navigation of Moodle.pdf */,
+				0305E80F2BFA3DD60089AD95 /* Regulation on academic mobility.pdf */,
+				0305E80C2BFA3DD60089AD95 /* Rules of academic integrity.pdf */,
+				0305E8112BFA3DD60089AD95 /* Rules of educational process.pdf */,
+				0305E8152BFA3DD70089AD95 /* Rules of the system for evaluating.pdf */,
+				0305E8122BFA3DD60089AD95 /* Student support services.pdf */,
+			);
+			path = "Guide Materials";
+			sourceTree = "<group>";
+		};
+		0305E8262BFAEC7F0089AD95 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0305E8272BFAEC920089AD95 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		034DEEE42BE913EA00B29CB9 = {
+			isa = PBXGroup;
+			children = (
+				034DEEEF2BE913EA00B29CB9 /* MyAITU */,
+				034DEEEE2BE913EA00B29CB9 /* Products */,
+				3457A7610DA496E3BBB6FF46 /* Pods */,
+				3E8669DB8DCE3EAA1004775E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		034DEEEE2BE913EA00B29CB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				034DEEED2BE913EA00B29CB9 /* MyAITU.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		034DEEEF2BE913EA00B29CB9 /* MyAITU */ = {
+			isa = PBXGroup;
+			children = (
+				0305E7DC2BF338050089AD95 /* Models */,
+				034DEF052BE9154D00B29CB9 /* Helpers */,
+				034DEF042BE9145E00B29CB9 /* Resources */,
+				034DEF0B2BE915CB00B29CB9 /* Controllers */,
+				034DEEFE2BE913EC00B29CB9 /* Info.plist */,
+				0305E8012BFA07A00089AD95 /* GoogleService-Info.plist */,
+			);
+			path = MyAITU;
+			sourceTree = "<group>";
+		};
+		034DEF042BE9145E00B29CB9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0305E80B2BFA3DC50089AD95 /* Guide Materials */,
+				0305E7CE2BF0B6AF0089AD95 /* Map */,
+				034DEEF02BE913EA00B29CB9 /* AppDelegate.swift */,
+				034DEEF22BE913EA00B29CB9 /* SceneDelegate.swift */,
+				034DEEF92BE913EC00B29CB9 /* Assets.xcassets */,
+				034DEEFB2BE913EC00B29CB9 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		034DEF052BE9154D00B29CB9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				034DEF062BE9156900B29CB9 /* Extensions */,
+				034DEF092BE915B500B29CB9 /* Resources.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		034DEF062BE9156900B29CB9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				034DEF072BE915A600B29CB9 /* UIColor + ext.swift */,
+				034DEF0F2BE9247100B29CB9 /* UIImage + ext.swift */,
+				0305E8292BFAF6290089AD95 /* UITextField + ext.swift */,
+				0305E82D2BFB5E2C0089AD95 /* Alert + ext.swift */,
+				0305E82F2BFB5E4C0089AD95 /* Keyboard + ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		034DEF0B2BE915CB00B29CB9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0305E8262BFAEC7F0089AD95 /* Login */,
+				034DEF0C2BE91BF500B29CB9 /* CustomViews */,
+				034DEEF42BE913EA00B29CB9 /* MainViewController.swift */,
+				034DEF112BE95CA500B29CB9 /* EventsViewController.swift */,
+				034DEF132BE95CB300B29CB9 /* AnnouncementsViewController.swift */,
+				034DEF152BE95CC100B29CB9 /* MoodleViewController.swift */,
+				034DEF172BE95CCD00B29CB9 /* UniversityMapViewController.swift */,
+				034DEF192BE95CD700B29CB9 /* GuideViewController.swift */,
+				0305E7CC2BEB62050089AD95 /* StudentInformationViewController.swift */,
+				0305E8072BFA3B2F0089AD95 /* GuideDetailViewController.swift */,
+				0305E8242BFA7A600089AD95 /* EventsDetailViewController.swift */,
+				0305E82B2BFB36DE0089AD95 /* SettingsViewController.swift */,
+				03729B3B2BFBA73A0058A426 /* DUViewController.swift */,
+				03729B3D2BFBAEC10058A426 /* EventRegistrationViewController.swift */,
+				03729B3F2BFBB2870058A426 /* CalculatorViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		034DEF0C2BE91BF500B29CB9 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				034DEF0D2BE91C0900B29CB9 /* CustomButton.swift */,
+				033C05CD2BEA233B00D626CE /* CarouselView.swift */,
+				0305E8032BFA1DF70089AD95 /* GuideCell.swift */,
+				0305E8202BFA4C700089AD95 /* EventsCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		3457A7610DA496E3BBB6FF46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61B2A8A5AE4BC338471725B4 /* Pods-MyAITU.debug.xcconfig */,
+				D1506C9FE54BD8AEE4480D8B /* Pods-MyAITU.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3E8669DB8DCE3EAA1004775E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE87C96EA5CDD87D85B76EE3 /* Pods_MyAITU.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		034DEEEC2BE913EA00B29CB9 /* MyAITU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034DEF012BE913EC00B29CB9 /* Build configuration list for PBXNativeTarget "MyAITU" */;
+			buildPhases = (
+				D82FFB42876D3FB9BBD35937 /* [CP] Check Pods Manifest.lock */,
+				034DEEE92BE913EA00B29CB9 /* Sources */,
+				034DEEEA2BE913EA00B29CB9 /* Frameworks */,
+				034DEEEB2BE913EA00B29CB9 /* Resources */,
+				42087AB13830C74389152AA9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyAITU;
+			productName = MyAITU;
+			productReference = 034DEEED2BE913EA00B29CB9 /* MyAITU.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		034DEEE52BE913EA00B29CB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					034DEEEC2BE913EA00B29CB9 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 034DEEE82BE913EA00B29CB9 /* Build configuration list for PBXProject "MyAITU" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 034DEEE42BE913EA00B29CB9;
+			productRefGroup = 034DEEEE2BE913EA00B29CB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				034DEEEC2BE913EA00B29CB9 /* MyAITU */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		034DEEEB2BE913EA00B29CB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034DEEFD2BE913EC00B29CB9 /* LaunchScreen.storyboard in Resources */,
+				0305E7D02BF0B6C60089AD95 /* uni map 1 floor.pdf in Resources */,
+				0305E8172BFA3DD70089AD95 /* Navigation of Microsoft Teams.pdf in Resources */,
+				0305E7D32BF0BF340089AD95 /* uni map 3 floor.pdf in Resources */,
+				0305E81C2BFA3DD70089AD95 /* Student support services.pdf in Resources */,
+				0305E81E2BFA3DD70089AD95 /* Navigation of Moodle.pdf in Resources */,
+				0305E8192BFA3DD70089AD95 /* Regulation on academic mobility.pdf in Resources */,
+				0305E8182BFA3DD70089AD95 /* Instructions of the exam session.pdf in Resources */,
+				0305E7D42BF0BF340089AD95 /* uni map 2 floor.pdf in Resources */,
+				034DEEFA2BE913EC00B29CB9 /* Assets.xcassets in Resources */,
+				0305E81B2BFA3DD70089AD95 /* Rules of educational process.pdf in Resources */,
+				0305E81F2BFA3DD70089AD95 /* Rules of the system for evaluating.pdf in Resources */,
+				0305E8022BFA07A10089AD95 /* GoogleService-Info.plist in Resources */,
+				0305E8162BFA3DD70089AD95 /* Rules of academic integrity.pdf in Resources */,
+				0305E81A2BFA3DD70089AD95 /* Basic concepts.pdf in Resources */,
+				0305E81D2BFA3DD70089AD95 /* Internal and work regulations.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42087AB13830C74389152AA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyAITU/Pods-MyAITU-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyAITU/Pods-MyAITU-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyAITU/Pods-MyAITU-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D82FFB42876D3FB9BBD35937 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyAITU-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		034DEEE92BE913EA00B29CB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0305E8302BFB5E4C0089AD95 /* Keyboard + ext.swift in Sources */,
+				034DEF162BE95CC100B29CB9 /* MoodleViewController.swift in Sources */,
+				0305E82E2BFB5E2C0089AD95 /* Alert + ext.swift in Sources */,
+				0305E82A2BFAF6290089AD95 /* UITextField + ext.swift in Sources */,
+				034DEEF52BE913EA00B29CB9 /* MainViewController.swift in Sources */,
+				034DEF182BE95CCD00B29CB9 /* UniversityMapViewController.swift in Sources */,
+				034DEF122BE95CA500B29CB9 /* EventsViewController.swift in Sources */,
+				0305E8232BFA56120089AD95 /* Events.swift in Sources */,
+				034DEEF12BE913EA00B29CB9 /* AppDelegate.swift in Sources */,
+				0305E8212BFA4C700089AD95 /* EventsCell.swift in Sources */,
+				034DEF1A2BE95CD700B29CB9 /* GuideViewController.swift in Sources */,
+				0305E8042BFA1DF70089AD95 /* GuideCell.swift in Sources */,
+				03729B3E2BFBAEC20058A426 /* EventRegistrationViewController.swift in Sources */,
+				03729B402BFBB2870058A426 /* CalculatorViewController.swift in Sources */,
+				033C05CE2BEA233B00D626CE /* CarouselView.swift in Sources */,
+				0305E8282BFAEC920089AD95 /* LoginViewController.swift in Sources */,
+				0305E8082BFA3B2F0089AD95 /* GuideDetailViewController.swift in Sources */,
+				034DEF0E2BE91C0900B29CB9 /* CustomButton.swift in Sources */,
+				0305E8252BFA7A600089AD95 /* EventsDetailViewController.swift in Sources */,
+				034DEF142BE95CB300B29CB9 /* AnnouncementsViewController.swift in Sources */,
+				034DEEF32BE913EA00B29CB9 /* SceneDelegate.swift in Sources */,
+				034DEF0A2BE915B500B29CB9 /* Resources.swift in Sources */,
+				034DEF082BE915A600B29CB9 /* UIColor + ext.swift in Sources */,
+				034DEF102BE9247100B29CB9 /* UIImage + ext.swift in Sources */,
+				03729B3C2BFBA73A0058A426 /* DUViewController.swift in Sources */,
+				0305E8062BFA1FB20089AD95 /* GuideCategories.swift in Sources */,
+				0305E7DE2BF3381E0089AD95 /* Student.swift in Sources */,
+				0305E7CD2BEB62050089AD95 /* StudentInformationViewController.swift in Sources */,
+				0305E82C2BFB36DE0089AD95 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		034DEEFB2BE913EC00B29CB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034DEEFC2BE913EC00B29CB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		034DEEFF2BE913EC00B29CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		034DEF002BE913EC00B29CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		034DEF022BE913EC00B29CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61B2A8A5AE4BC338471725B4 /* Pods-MyAITU.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CS22N9WW2T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyAITU/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akherik.MyAITU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		034DEF032BE913EC00B29CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1506C9FE54BD8AEE4480D8B /* Pods-MyAITU.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CS22N9WW2T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyAITU/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akherik.MyAITU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		034DEEE82BE913EA00B29CB9 /* Build configuration list for PBXProject "MyAITU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034DEEFF2BE913EC00B29CB9 /* Debug */,
+				034DEF002BE913EC00B29CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034DEF012BE913EC00B29CB9 /* Build configuration list for PBXNativeTarget "MyAITU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034DEF022BE913EC00B29CB9 /* Debug */,
+				034DEF032BE913EC00B29CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 034DEEE52BE913EA00B29CB9 /* Project object */;
+}
