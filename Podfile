@@ -8,6 +8,7 @@ target 'MyAITU' do
   # Pods for MyAITU
 pod 'SnapKit'
 pod 'FirebaseAuth'
-pod 'CDMarkdownKit', '2.5.1'
+pod 'FirebaseFirestore'
+pod 'SDWebImage'
 
 end

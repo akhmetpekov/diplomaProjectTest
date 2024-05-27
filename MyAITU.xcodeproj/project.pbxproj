@@ -27,14 +27,13 @@
 		0305E81E2BFA3DD70089AD95 /* Navigation of Moodle.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0305E8142BFA3DD60089AD95 /* Navigation of Moodle.pdf */; };
 		0305E81F2BFA3DD70089AD95 /* Rules of the system for evaluating.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0305E8152BFA3DD70089AD95 /* Rules of the system for evaluating.pdf */; };
 		0305E8212BFA4C700089AD95 /* EventsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0305E8202BFA4C700089AD95 /* EventsCell.swift */; };
-		0305E8232BFA56120089AD95 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0305E8222BFA56120089AD95 /* Events.swift */; };
+		0305E8232BFA56120089AD95 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0305E8222BFA56120089AD95 /* Event.swift */; };
 		0305E8252BFA7A600089AD95 /* EventsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0305E8242BFA7A600089AD95 /* EventsDetailViewController.swift */; };
 		0305E8282BFAEC920089AD95 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0305E8272BFAEC920089AD95 /* LoginViewController.swift */; };
 		0305E82A2BFAF6290089AD95 /* UITextField + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0305E8292BFAF6290089AD95 /* UITextField + ext.swift */; };
 		0305E82C2BFB36DE0089AD95 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0305E82B2BFB36DE0089AD95 /* SettingsViewController.swift */; };
 		0305E82E2BFB5E2C0089AD95 /* Alert + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0305E82D2BFB5E2C0089AD95 /* Alert + ext.swift */; };
 		0305E8302BFB5E4C0089AD95 /* Keyboard + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0305E82F2BFB5E4C0089AD95 /* Keyboard + ext.swift */; };
-		033C05CE2BEA233B00D626CE /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033C05CD2BEA233B00D626CE /* CarouselView.swift */; };
 		034DEEF12BE913EA00B29CB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034DEEF02BE913EA00B29CB9 /* AppDelegate.swift */; };
 		034DEEF32BE913EA00B29CB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034DEEF22BE913EA00B29CB9 /* SceneDelegate.swift */; };
 		034DEEF52BE913EA00B29CB9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034DEEF42BE913EA00B29CB9 /* MainViewController.swift */; };
@@ -52,6 +51,9 @@
 		03729B3C2BFBA73A0058A426 /* DUViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03729B3B2BFBA73A0058A426 /* DUViewController.swift */; };
 		03729B3E2BFBAEC20058A426 /* EventRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03729B3D2BFBAEC10058A426 /* EventRegistrationViewController.swift */; };
 		03729B402BFBB2870058A426 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03729B3F2BFBB2870058A426 /* CalculatorViewController.swift */; };
+		03966D5D2BFF6BF90010EB24 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03966D5C2BFF6BF90010EB24 /* ImageLoader.swift */; };
+		03966D7A2C01E40F0010EB24 /* AnnouncementsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03966D792C01E40F0010EB24 /* AnnouncementsCell.swift */; };
+		03966D7C2C01E5260010EB24 /* Announcement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03966D7B2C01E5260010EB24 /* Announcement.swift */; };
 		DD6033D736FF90FB5C221C3E /* Pods_MyAITU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE87C96EA5CDD87D85B76EE3 /* Pods_MyAITU.framework */; };
 /* End PBXBuildFile section */
 
@@ -76,14 +78,13 @@
 		0305E8142BFA3DD60089AD95 /* Navigation of Moodle.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Navigation of Moodle.pdf"; sourceTree = "<group>"; };
 		0305E8152BFA3DD70089AD95 /* Rules of the system for evaluating.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Rules of the system for evaluating.pdf"; sourceTree = "<group>"; };
 		0305E8202BFA4C700089AD95 /* EventsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsCell.swift; sourceTree = "<group>"; };
-		0305E8222BFA56120089AD95 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		0305E8222BFA56120089AD95 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		0305E8242BFA7A600089AD95 /* EventsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsDetailViewController.swift; sourceTree = "<group>"; };
 		0305E8272BFAEC920089AD95 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0305E8292BFAF6290089AD95 /* UITextField + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField + ext.swift"; sourceTree = "<group>"; };
 		0305E82B2BFB36DE0089AD95 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		0305E82D2BFB5E2C0089AD95 /* Alert + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert + ext.swift"; sourceTree = "<group>"; };
 		0305E82F2BFB5E4C0089AD95 /* Keyboard + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Keyboard + ext.swift"; sourceTree = "<group>"; };
-		033C05CD2BEA233B00D626CE /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		034DEEED2BE913EA00B29CB9 /* MyAITU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAITU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		034DEEF02BE913EA00B29CB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		034DEEF22BE913EA00B29CB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +104,9 @@
 		03729B3B2BFBA73A0058A426 /* DUViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DUViewController.swift; sourceTree = "<group>"; };
 		03729B3D2BFBAEC10058A426 /* EventRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRegistrationViewController.swift; sourceTree = "<group>"; };
 		03729B3F2BFBB2870058A426 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		03966D5C2BFF6BF90010EB24 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		03966D792C01E40F0010EB24 /* AnnouncementsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementsCell.swift; sourceTree = "<group>"; };
+		03966D7B2C01E5260010EB24 /* Announcement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Announcement.swift; sourceTree = "<group>"; };
 		61B2A8A5AE4BC338471725B4 /* Pods-MyAITU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAITU.debug.xcconfig"; path = "Target Support Files/Pods-MyAITU/Pods-MyAITU.debug.xcconfig"; sourceTree = "<group>"; };
 		CE87C96EA5CDD87D85B76EE3 /* Pods_MyAITU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyAITU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1506C9FE54BD8AEE4480D8B /* Pods-MyAITU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAITU.release.xcconfig"; path = "Target Support Files/Pods-MyAITU/Pods-MyAITU.release.xcconfig"; sourceTree = "<group>"; };
@@ -135,7 +139,8 @@
 			children = (
 				0305E7DD2BF3381E0089AD95 /* Student.swift */,
 				0305E8052BFA1FB20089AD95 /* GuideCategories.swift */,
-				0305E8222BFA56120089AD95 /* Events.swift */,
+				0305E8222BFA56120089AD95 /* Event.swift */,
+				03966D7B2C01E5260010EB24 /* Announcement.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -186,10 +191,11 @@
 		034DEEEF2BE913EA00B29CB9 /* MyAITU */ = {
 			isa = PBXGroup;
 			children = (
+				03966D5B2BFF6BEC0010EB24 /* Managers */,
 				0305E7DC2BF338050089AD95 /* Models */,
+				034DEF0B2BE915CB00B29CB9 /* ViewControllers */,
 				034DEF052BE9154D00B29CB9 /* Helpers */,
 				034DEF042BE9145E00B29CB9 /* Resources */,
-				034DEF0B2BE915CB00B29CB9 /* Controllers */,
 				034DEEFE2BE913EC00B29CB9 /* Info.plist */,
 				0305E8012BFA07A00089AD95 /* GoogleService-Info.plist */,
 			);
@@ -230,7 +236,7 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		034DEF0B2BE915CB00B29CB9 /* Controllers */ = {
+		034DEF0B2BE915CB00B29CB9 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				0305E8262BFAEC7F0089AD95 /* Login */,
@@ -249,18 +255,26 @@
 				03729B3D2BFBAEC10058A426 /* EventRegistrationViewController.swift */,
 				03729B3F2BFBB2870058A426 /* CalculatorViewController.swift */,
 			);
-			path = Controllers;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		034DEF0C2BE91BF500B29CB9 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
 				034DEF0D2BE91C0900B29CB9 /* CustomButton.swift */,
-				033C05CD2BEA233B00D626CE /* CarouselView.swift */,
 				0305E8032BFA1DF70089AD95 /* GuideCell.swift */,
 				0305E8202BFA4C700089AD95 /* EventsCell.swift */,
+				03966D792C01E40F0010EB24 /* AnnouncementsCell.swift */,
 			);
 			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		03966D5B2BFF6BEC0010EB24 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				03966D5C2BFF6BF90010EB24 /* ImageLoader.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		3457A7610DA496E3BBB6FF46 /* Pods */ = {
@@ -410,19 +424,21 @@
 			files = (
 				0305E8302BFB5E4C0089AD95 /* Keyboard + ext.swift in Sources */,
 				034DEF162BE95CC100B29CB9 /* MoodleViewController.swift in Sources */,
+				03966D5D2BFF6BF90010EB24 /* ImageLoader.swift in Sources */,
+				03966D7A2C01E40F0010EB24 /* AnnouncementsCell.swift in Sources */,
 				0305E82E2BFB5E2C0089AD95 /* Alert + ext.swift in Sources */,
 				0305E82A2BFAF6290089AD95 /* UITextField + ext.swift in Sources */,
 				034DEEF52BE913EA00B29CB9 /* MainViewController.swift in Sources */,
 				034DEF182BE95CCD00B29CB9 /* UniversityMapViewController.swift in Sources */,
 				034DEF122BE95CA500B29CB9 /* EventsViewController.swift in Sources */,
-				0305E8232BFA56120089AD95 /* Events.swift in Sources */,
+				0305E8232BFA56120089AD95 /* Event.swift in Sources */,
 				034DEEF12BE913EA00B29CB9 /* AppDelegate.swift in Sources */,
 				0305E8212BFA4C700089AD95 /* EventsCell.swift in Sources */,
+				03966D7C2C01E5260010EB24 /* Announcement.swift in Sources */,
 				034DEF1A2BE95CD700B29CB9 /* GuideViewController.swift in Sources */,
 				0305E8042BFA1DF70089AD95 /* GuideCell.swift in Sources */,
 				03729B3E2BFBAEC20058A426 /* EventRegistrationViewController.swift in Sources */,
 				03729B402BFBB2870058A426 /* CalculatorViewController.swift in Sources */,
-				033C05CE2BEA233B00D626CE /* CarouselView.swift in Sources */,
 				0305E8282BFAEC920089AD95 /* LoginViewController.swift in Sources */,
 				0305E8082BFA3B2F0089AD95 /* GuideDetailViewController.swift in Sources */,
 				034DEF0E2BE91C0900B29CB9 /* CustomButton.swift in Sources */,
